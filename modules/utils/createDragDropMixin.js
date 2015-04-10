@@ -318,7 +318,7 @@ function createDragDropMixin(backend) {
       e.preventDefault();
 
       var { over } = this._dropTargets[this.state.draggedItemType];
-      over(this, this.state.draggedItem);
+      over(this, this.state.draggedItem, e);
 
       // Don't use `none` because this will prevent browser from firing `dragend`
       backend.dragOver(this, e, this.state.currentDropEffect || 'move');
