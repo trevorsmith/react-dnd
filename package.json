@@ -45,7 +45,7 @@
     "react": "0.12.x",
     "react-hot-loader": "^1.1.4",
     "react-router": "0.12.x",
-    "request": "2.46.0",
+    "request": "2.88.2",
     "webpack": "1.5.3",
     "webpack-dev-server": "1.7.0"
   }
