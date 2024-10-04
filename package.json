@@ -42,7 +42,7 @@
     "6to5-core": "^3.5.3",
     "6to5-loader": "^3.0.0",
     "path": "0.4.9",
-    "react": "0.12.x",
+    "react": "18.3.x",
     "react-hot-loader": "^1.1.4",
     "react-router": "0.12.x",
     "request": "2.46.0",
